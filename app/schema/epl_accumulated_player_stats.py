@@ -1,7 +1,7 @@
 from pydantic import BaseModel, ConfigDict
 
 
-class PlayerStats(BaseModel):
+class EplAccumulatedPlayerStatsSchema(BaseModel):
     id: int
     name: str
     position: str
